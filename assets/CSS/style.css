@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("../imgs/portadaPapeleria.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+
+    h1{
+        font-size: 4em;
+        text-align: center;
+        padding-top: 6%;
+        font-family:cursive;
+    }
+    p{
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+}
+main{
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+
+    section{
+
+        .descripcion-precio{
+            padding: 20px;
+            margin: 20px;
+        }
+        article{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+
+            img{
+                width: 250px;
+            }
+
+            .contenedor:hover{
+                background-color: #f5f5f5;
+                border: 1px solid #d9d9d9;
+                box-shadow: none;
+            }
+
+            .contenedor{
+                width: 50%;
+                background-color: #fff;
+                padding: 20px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                cursor: pointer;
+                box-shadow: 5px 5px 5px #d9d9d9;
+
+
+                .descripcion-precio{
+                     p{
+                        font-family:Verdana, Geneva, Tahoma, sans-serif;
+                        color: #000;
+                        padding: 5px;
+                        text-align: left;
+
+                    }
+                    h3{
+                        color: #8e7dbe;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
+footer{
+    height: 50px;
+    background-color: #a564d3;
+    color: #000;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            text-align: center;
+            align-items: center;
+        }
+
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        ul{
+            display: flex;
+
+            li{
+                list-style: none;
+
+
+                a{
+                   text-decoration: none;
+                   color: #000;
+                   padding: 5px;
+                }
+            }
+        }
+    }
+}
